@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "WAVideoBox"
+  spec.name         = "JSWAVideoBox"
   spec.version      = "0.0.1"
   spec.summary      = "Video Edit Tool"
 
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+Video Edit Tool
                    DESC
 
   spec.homepage     = "https://github.com/CoderJasonSu/WAVideoBox"
@@ -91,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WAVideoBox", "WAVideoBox/WAVideoBox/**/*.{h,m}"
+  spec.source_files  = "WAVideoBox", "WAVideoBox/JSWAVideoBox/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
