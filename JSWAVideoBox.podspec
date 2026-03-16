@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JSWAVideoBox"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Video Edit Tool"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Video Edit Tool
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WAVideoBox", "WAVideoBox/JSWAVideoBox/**/*.{h,m}"
+  spec.source_files  = "JSWAVideoBox", "JSWAVideoBox/JSWAVideoBox/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
